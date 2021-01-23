@@ -5,6 +5,6 @@ module.exports = (app) => {
         .get(api.findAll)
         .post(api.save)
         .get(api.findOne)
-        .get(api.delete)
+
 
 }

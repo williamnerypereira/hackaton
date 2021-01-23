@@ -1,10 +1,7 @@
 const api = require('../controllers/card-controller')
 
 module.exports = (app) => {
-    app.route('/cards')
+    app.route('')
         .get(api.findAll)
-        .post(api.save)
-        .get(api.findOne)
-        .get(api.delete)
 
 }
